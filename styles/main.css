@@ -1,3 +1,14 @@
- html{
-            font-family: 'roboto', sans-serif;
-        }
+html {
+  font-family: "roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.content{
+    width: 90%;
+    max-width:1100px;
+}
