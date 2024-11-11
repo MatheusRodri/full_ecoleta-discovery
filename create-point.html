@@ -1,4 +1,4 @@
-<!--Falta: 01:35:00 -->
+<!--Falta: 00:00:00 -->
 
 <!DOCTYPE html>
 <html lang="pt_br">
@@ -41,23 +41,45 @@
                     <input type="text" name="name">
                 </div>
 
+                <div class="field-group">
+                    <div class="field">
+                        <label for="address">Endereço</label>
+                        <input type="text" name="address">
+                    </div>
+                    <div class="field">
+                        <label for="numero">Número/Complemento</label>
+                        <input type="text" name="address">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <div class="field">
+                        <label for="state">Estado</label>
+                        <select name="uf">
+                            <option>Selecione o estado</option>
+
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="city">Estado</label>
+                        <select name="city" disabled>
+                            <option>Selecione a cidade</option>
+
+                        </select>
+
+                        <input type="hidden" name="state">
+                    </div>
+
+                </div>
+
             </fieldset>
 
-          <!--Itens-->
-            <fieldset>
-                <legend>
-                    <h2>Itens da entidade</h2>
-                </legend>
 
-            </fieldset>
-
-            <button type="submit"></button>
+            <button type="submit">Cadastrar ponto de coleta</button>
         </form>
-
-    
-
     </div>
 
+    <script src="./scripts/create-point.js"></script>
 </body>
-
 </html>
