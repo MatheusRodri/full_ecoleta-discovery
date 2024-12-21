@@ -1,5 +1,4 @@
 /* falta 39:00 aula 3 */
-
 #modal {
   background-color: rgba(0, 0, 0, 0.9);
 
@@ -14,6 +13,10 @@
   align-items: center;
 
   transition: 400ms;
+}
+
+#modal.hide {
+  display: none;
 }
 
 #modal .content {
@@ -59,7 +62,7 @@
 #modal form input {
   flex: 1;
   background-color: #f0f0f5;
-  border-radius: 8px;
+  border-radius: 8px 0 0 8px;
   border: 0;
   padding: 16px 24px;
   font-size: 16px;
@@ -71,5 +74,9 @@
   height: 72px;
   background-color: var(--primary-color);
   border: 0;
-  border-radius: 8px;
+  border-radius: 0 8px 8px 0;
+}
+
+#modal form butto:hover {
+  background-color: #2fb86e;
 }
