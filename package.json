@@ -4,14 +4,16 @@
   "description": "O projeto de se trata de um sistema de gerenciamento de pontos de coleta seletiva de lixo, onde é possível cadastrar pontos de coleta, visualizar pontos de coleta cadastrados, visualizar detalhes de um ponto de coleta, editar um ponto de coleta e excluir um ponto de coleta.",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "db": "node src/database/db.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
-    "nunjucks": "^3.2.4"
+    "nunjucks": "^3.2.4",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"

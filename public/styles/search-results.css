@@ -1,7 +1,11 @@
+body{
+  background-color: white;
+}
+
 body::after {
   content: "";
   position: fixed;
-  background-color: white;
+  background-color: #f0f0f5;
   top: 256px;
   right: 0;
   left: 0;
