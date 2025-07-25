@@ -1,8 +1,10 @@
-# Sobre o projeto
+# Ecoleta
+
+## Sobre o projeto
 
 O projeto de se trata de um sistema de gerenciamento de pontos de coleta seletiva de lixo, onde é possível cadastrar pontos de coleta, visualizar pontos de coleta cadastrados, visualizar detalhes de um ponto de coleta, editar um ponto de coleta e excluir um ponto de coleta.
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 - Back end
     - Node.js
     - Express
@@ -14,7 +16,7 @@ O projeto de se trata de um sistema de gerenciamento de pontos de coleta seletiv
     - CSS
     - JavaScript
 
-# Como executar o projeto
+## Como executar o projeto
 
 - Clone o projeto
 - Entre na pasta do projeto
